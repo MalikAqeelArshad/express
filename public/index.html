@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Node JS</title>
+  </head>
+  <body>
+
+    <!-- <div class="hero">
+      <h1>What is Node.js?</h1>
+      <p style="max-width: 60rem;">Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting.</p>
+    </div> -->
+
+    <div class="container">
+      <form id="add-project-form" class="projects-form">
+        <input type="text" name="title" placeholder="Title" />
+        <input type="text" name="description" placeholder="Description" />
+        <input type="text" name="link" placeholder="Link" />
+        <button type="submit" class="btn">Add Project</button>
+        <button type="button" id="get-projects-btn" class="btn warning" style="margin-left: auto;">Get Projects</button>
+      </form>
+
+
+      <div id="output" class="cards">
+        <p class="container">Please click on <b>Get Projects</b> or create new project.</p>
+        <!-- <div class="card">
+          <img src="./img/vuejs.png" alt="VueJS">
+          <div class="card-details">
+            <h2>Vue JS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <nav>
+              <button onclick="deleteProject()" class="btn danger">Delete</button>
+              <a href="/" class="btn info">Go to preview</a>
+            </nav>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
