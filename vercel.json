@@ -13,8 +13,8 @@
       "dest": "routes/$1"
     },
     {
-      "src": "public/(.*)",
-      "dest": "/"
+      "src": "/(.*)",
+      "dest": "public/"
     },
     {
       "src": "/(.*)",
