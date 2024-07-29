@@ -6,16 +6,5 @@
         "use": "@vercel/node"
       }
     ],
-    "routes": [
-      { "handle": "filesystem" },
-      {
-        "src": "routes/(.*)",
-        "dest": "routes/$1"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/server.js"
-      }
-    ],
     "rewrites": [{ "source": "/(.*)", "destination": "/public" }]
   }
