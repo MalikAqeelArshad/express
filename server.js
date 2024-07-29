@@ -31,7 +31,7 @@ app.use('/api/projects', projects);
 
 app.get('/*.html', (req, res) => {
   // res.sendFile('*.html');
-  res.sendFile('*.html', './public');
+  res.sendFile('*.html', {root: express.static('./public')});
 })
 
 // Error handler
