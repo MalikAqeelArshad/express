@@ -11,7 +11,7 @@
       "dest": "routes/$1"
     },
     {
-      "src": "public/(.*)",
+      "src": "/(.*)",
       "dest": "public/$1"
     },
     {
