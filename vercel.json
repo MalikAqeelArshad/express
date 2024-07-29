@@ -13,7 +13,7 @@
       "dest": "routes/$1"
     },
     {
-      "src": "/(.*)",
+      "src": "public/(.*)",
       "dest": "/server.js"
     }
   ]
