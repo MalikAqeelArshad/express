@@ -29,6 +29,11 @@ app.use(express.urlencoded({ extended: false }));
 // Routes
 app.use('/api/projects', projects);
 
+app.get('/*.html', (req, res) => {
+  res.sendFile('*.html');
+  // res.sendFile('*.html', {root: path.join(__dirname, 'public')});
+})
+
 // Error handler
 app.use(notFound);
 app.use(errorHandler);
