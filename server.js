@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import projects from './routes/projects.js';
-import logger from './middleware/logger.js';
+// import logger from './middleware/logger.js';
 import locals from './middleware/locals.js';
 import notFound from './middleware/notFound.js';
 import errorHandler from './middleware/error.js';
@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Logger middleware
-app.use(logger);
+// app.use(logger);
 // app.use(locals);
 
 // Routes
