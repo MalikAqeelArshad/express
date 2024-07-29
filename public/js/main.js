@@ -4,7 +4,8 @@ const btn = $getEl('#get-projects-btn');
 const form = $getEl('#add-project-form');
 
 // const baseUrl = `http://localhost:8000/api`;
-const baseUrl = `https://nodejs.aqeel.store:8000/api`;
+// const baseUrl = `https://nodejs.aqeel.store:8000/api`;
+const baseUrl = `${window.location.origin}/api`;
 
 // Store and Retrieve data from local storage
 let uid = crypto.randomUUID();
