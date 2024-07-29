@@ -30,8 +30,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/api/projects', projects);
 
 app.get('/*.html', (req, res) => {
-  res.sendFile('*.html');
-  // res.sendFile('*.html', {root: path.join(__dirname, 'public')});
+  // res.sendFile('*.html');
+  res.sendFile('*.html', './public');
 })
 
 // Error handler
