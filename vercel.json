@@ -17,10 +17,10 @@
       "dest": "/server.js"
     }
   ],
-  "rewrites": [ 
-    { 
-      "source": "/(.*)", 
+  "rewrites": [
+    {
+      "source": "/(.*)",
       "destination": "/api"
-    } 
-  ] 
+    }
+  ]
 }
