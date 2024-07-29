@@ -13,12 +13,8 @@
       "dest": "routes/$1"
     },
     {
-      "src": "public/(.*)",
-      "dest": "public/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "/server.js"
     }
-  ]
+  ], "rewrites": [{ "source": "/(.*)", "destination": "/public" }]
 }
