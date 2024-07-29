@@ -17,7 +17,5 @@
         "dest": "/server.js"
       }
     ],
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/public" }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/public" }]
   }
