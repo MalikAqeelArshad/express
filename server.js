@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGODB_URI)
 const app = express();
 
 // setup static folder
-app.use(express.static('./public'));
+// app.use(express.static('./public'));
 app.use('/favicon.ico', express.static('./favicon.ico'));
 
 // Body parser middleware
@@ -34,5 +34,4 @@ app.use(notFound);
 app.use(errorHandler);
 
 // app.listen(port, () => console.log(`Server is running on port ${port}`));
-app.listen();
-// export default app;
+export default app;
