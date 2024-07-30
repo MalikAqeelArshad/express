@@ -24,7 +24,7 @@ const renderHTML = (projects) => {
     const css = project.uuid == 'admin' && urlParams.get('user') != 'admin' ? 'none' : 'inline-block';
     const card = `<div class="card">
       <div class="card-details">
-        <h2>${ project.title }</h2>
+        <h3>${ project.title }</h3>
         <p>${ project.description || 'description' }</p>
         <nav>
           <button onclick="deleteProject('${project._id}')" class="btn danger" style="display:${css}">Delete</button>
