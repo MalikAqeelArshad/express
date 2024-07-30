@@ -16,7 +16,7 @@ const app = express();
 
 // setup static folder
 // app.use(express.static('./public'));
-app.use('/favicon.ico', express.static('./favicon.ico'));
+// app.use('/favicon.ico', express.static('./favicon.ico'));
 
 // Body parser middleware
 app.use(express.json());
