@@ -34,4 +34,5 @@ app.use(notFound);
 app.use(errorHandler);
 
 // app.listen(port, () => console.log(`Server is running on port ${port}`));
-export default app;
+app.listen();
+// export default app;
